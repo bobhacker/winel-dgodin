@@ -1,0 +1,18 @@
+<?php
+// $Id$
+
+/**
+ * @file wdg_modules.install
+ * Gestion des modules sur http://winel.daniel-godin.com/.
+ */
+
+
+/**
+ * Implements hook_install().
+ */
+function wdg_modules_install() {
+  module_disable(array('toolbar', 'overlay', 'comment'));
+  drupal_uninstall_modules(array('toolbar', 'overlay', 'comment'));
+  
+  module_enable(array('admin_menu_toolbar', 'features', 'strongarm', 'locale', 'wdg_features_i18n'));
+}

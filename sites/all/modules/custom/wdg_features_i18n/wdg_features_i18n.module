@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the WDG Features i18n feature.
+ */
+
+include_once 'wdg_features_i18n.features.inc';

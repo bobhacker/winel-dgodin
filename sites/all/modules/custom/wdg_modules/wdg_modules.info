@@ -1,0 +1,5 @@
+name = WDG Modules
+description = Gestion des modules sur <a href="http://winel.daniel-godin.com" target="_blank">http://winel.daniel-godin.com/</a>.
+core = 7.x
+version = 7.x-1.0
+package = WDG

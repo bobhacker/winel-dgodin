@@ -1,0 +1,14 @@
+name = WDG Features i18n
+description = Gestion du multilingue sur <a href="http://winel.daniel-godin.com" target="_blank">http://winel.daniel-godin.com/</a>.
+core = 7.x
+package = WDG
+version = 7.x-1.0
+dependencies[] = ctools
+dependencies[] = features
+dependencies[] = locale
+dependencies[] = strongarm
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:2
+features[language][] = fr
+features[variable][] = language_default
+features[variable][] = language_negotiation_language

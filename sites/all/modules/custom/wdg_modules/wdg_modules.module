@@ -1,0 +1,9 @@
+<?php
+// $Id$
+
+/**
+ * @file wdg_modules.module
+ * Gestion des modules sur http://winel.daniel-godin.com/.
+ */
+
+
