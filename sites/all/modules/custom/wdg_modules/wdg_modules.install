@@ -11,8 +11,8 @@
  * Implements hook_install().
  */
 function wdg_modules_install() {
-  module_disable(array('toolbar', 'overlay', 'comment'));
-  drupal_uninstall_modules(array('toolbar', 'overlay', 'comment'));
+  module_disable(array('toolbar', 'overlay', 'comment', 'dashboard'));
+  drupal_uninstall_modules(array('toolbar', 'overlay', 'comment', 'dashboard'));
   
   module_enable(array('admin_menu_toolbar', 'features', 'strongarm', 'locale', 'l10n_update', 'module_filter', 'wdg_features_i18n'));
 }
