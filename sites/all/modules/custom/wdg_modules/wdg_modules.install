@@ -20,7 +20,7 @@ function wdg_modules_install() {
 /**
  * Activation et sélection par défaut du thème winel_dgodin.
  */
-function wdb_update_7000(&$sandbox) {
+function wdb_modules_update_7000(&$sandbox) {
 	theme_enable(array('winel_dgodin'));
 	variable_set('theme_default', 'winel_dgodin');
 }
