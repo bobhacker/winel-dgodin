@@ -19,13 +19,13 @@ function wdg_features_i18n_strongarm() {
     'name' => 'French',
     'native' => 'Français',
     'direction' => '0',
-    'enabled' => 1,
-    'plurals' => '0',
-    'formula' => '',
+    'enabled' => '1',
+    'plurals' => '2',
+    'formula' => '($n>1)',
     'domain' => '',
     'prefix' => 'fr',
     'weight' => '0',
-    'javascript' => '',
+    'javascript' => 'pYMa6paHlt8FCCtqX8rNc2p6ZIwWFTlCbEuznIhG22w',
   );
   $export['language_default'] = $strongarm;
 

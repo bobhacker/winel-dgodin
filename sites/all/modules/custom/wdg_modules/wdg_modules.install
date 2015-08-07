@@ -16,3 +16,11 @@ function wdg_modules_install() {
   
   module_enable(array('admin_menu_toolbar', 'features', 'strongarm', 'locale', 'l10n_update', 'module_filter', 'wdg_features_i18n'));
 }
+
+/**
+ * Activation et sélection par défaut du thème winel_dgodin.
+ */
+function wdg_modules_update_7000(&$sandbox) {
+	theme_enable(array('winel_dgodin'));
+	variable_set('theme_default', 'winel_dgodin');
+}
